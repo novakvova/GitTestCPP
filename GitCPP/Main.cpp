@@ -1,7 +1,9 @@
 #include<iostream>
+#include"Student.h"
 using namespace std;
 int main()
 {
+	Student vova("Vova",15);
 	int action;
 	cout << "1. Add new Student\n";
 	cin >> action;
@@ -14,4 +16,5 @@ int main()
 	}
 	cout << "Hello\n";
 	return 0;
+	
 }
